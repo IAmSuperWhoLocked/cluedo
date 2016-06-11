@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<button id = "WomanInSuit" onclick= "sayHello()"> <img src= "http://i.imgur.com/xusW4ra.png" alt= RP height="150" width= "150" ></img> </button>	
+<button id = "WomanCrossingArms" onclick= "sayHello2()"> <img src ="http://i.imgur.com/WsaB42U.png
+" alt=PS height= "150" width= "150" ></img> </button>
+<button id = "WomanStaringEmotional" onclick= "sayHello3()"> <img src ="http://i.imgur.com/hnr6Cqh.png
+" alt=KR height="150"  width= "150"></img> </button>
+<button id = "ManWithBucket" onclick= "sayHello6()"> <img src ="http://i.imgur.com/l8i8utN.png	
+" alt=HB height="150" width="150" ></img> </button>
+<button id = "ManInScrubs" onclick= "sayHello4()"> <img src ="http://i.imgur.com/G1hTOx0.png
+" alt=AS height="150" width="150" ></img> </button>
+<button id = "ManStaringIntoYourSoul" onclick= "sayHello5()"> <img src ="http://i.imgur.com/kX0J4vv.png
+" alt=JE height="150" width= "150" ></img> </button>
+
+
+<div id = "div1"> 
+	<p> Raquel Peck <br>
+	61.3% wage gap <br>
+Job: Personal Financial Advisor<br>
+Largest wage gap<br>
+ </p>
+	
+</div>
+<div id = "div2">
+	<p> Persephone Seaver <br>
+0.5% wage gap <br> 
+Job:Therapist <br>
+About Equal... <br>
+</p>
+</div>
+<div id = "div3">
+ 	<p> Kaylie Ryers <br>
+106.2% wage gap <br>
+Job:Media producer <br>
+Earns more than men <br>
+ </p>
+</div>
+
+<div id = "div6">
+	<p> Al Sudworth<br>
+95% wage gap<br>
+Job: Cleaner of vehicles <br>
+Less than women  <br>
+ </p>
+</div>
+
+<div id = "div4">
+<p> Jesse Emmett <br>
+100% wage gap <br>
+Job- Health Technicians <br>
+Exactly Equal <br>
+ </p>
+</div>
+
+<div id = "div5">
+ 	<p> Hugh Bronson <br>
+182% wage gap <br>
+Job- Securities and financial sales agents <br>
+More than women
+
+ </p>
+
+</div>
+
+<script type="text/javascript">
+	var WIS = document.getElementById("div1");
+	var WCA = document.getElementById("div2");
+	var WSE = document.getElementById("div3");
+	var MIS = document.getElementById("div4");
+	var MSIYS = document.getElementById("div5");
+	var MWB = document.getElementById("div6");
+	function sayHello() {
+			
+			WIS.style.display = "block";
+			WCA.style.display = "none";
+			WSE.style.display = "none";
+			MIS.style.display = "none";
+			MSIYS.style.display = "none";
+			MWB.style.display = "none";
+		}
+
+		function sayHello2() {
+			
+			WCA.style.display = "block";
+			WIS.style.display = "none";
+			WSE.style.display = "none";
+			MIS.style.display = "none";
+			MSIYS.style.display = "none";
+			MWB.style.display = "none";
+		
+	}
+		function sayHello3() {
+			
+			WSE.style.display = "block";
+			WCA.style.display = "none";
+			WIS.style.display = "none";
+			MIS.style.display = "none";
+			MSIYS.style.display = "none";
+			MWB.style.display = "none";
+	}
+
+
+	function sayHello4() {
+		
+		MIS.style.display = "block"
+		WCA.style.display = "none";
+		WIS.style.display = "none";
+		WSE.style.display = "none";
+		MSIYS.style.display = "none";
+		MWB.style.display = "none";
+	}
+	function sayHello5() {
+			
+			MSIYS.style.display = "block";
+			WCA.style.display = "none";
+			WIS.style.display = "none";
+			WSE.style.display = "none";
+			MIS.style.display = "none";
+			MWB.style.display = "none";
+		
+	}
+
+	function sayHello6() {
+		
+		MWB.style.display = "block";
+		WCA.style.display = "none";
+		WIS.style.display = "none";
+		WSE.style.display = "none";
+		MIS.style.display = "none";
+		MSIYS.style.display = "none";
+	}
+
+</script>
+
+</body>
+</html>
